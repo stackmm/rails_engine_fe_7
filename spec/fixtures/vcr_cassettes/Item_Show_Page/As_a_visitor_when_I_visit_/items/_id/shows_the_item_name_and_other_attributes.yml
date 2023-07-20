@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.10
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - '0'
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept
+      Etag:
+      - W/"6139a8a0caf4d49468e527befe1c5393"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 46f9cadf-8b67-4f33-ac6c-4b43e50e2e83
+      X-Runtime:
+      - '0.015830'
+      Server-Timing:
+      - start_processing.action_controller;dur=0.18, sql.active_record;dur=1.84, instantiation.active_record;dur=0.26,
+        process_action.action_controller;dur=5.11
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"5","type":"item","attributes":{"name":"Item Expedita
+        Aliquam","description":"Voluptate aut labore qui illum tempore eius. Corrupti
+        cum et rerum. Enim illum labore voluptatem dicta consequatur. Consequatur
+        sunt consequuntur ut officiis.","unit_price":687.23,"merchant_id":1}}}'
+  recorded_at: Thu, 20 Jul 2023 04:06:22 GMT
+recorded_with: VCR 6.2.0

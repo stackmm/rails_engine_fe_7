@@ -222,6 +222,7 @@
           null,
           null,
           null,
+          1,
           null
         ]
       },
@@ -231,14 +232,34 @@
           null
         ]
       },
-      "/Users/stackhouse/3mod/projects/rails_engine_fe_7/app/facades/rails_engine_facade.rb": {
+      "/Users/stackhouse/3mod/projects/rails_engine_fe_7/app/controllers/merchants_controller.rb": {
         "lines": [
+          1,
+          1,
+          2,
+          null,
+          null,
           1,
           1,
           1,
           null,
+          null
+        ]
+      },
+      "/Users/stackhouse/3mod/projects/rails_engine_fe_7/app/controllers/application_controller.rb": {
+        "lines": [
           1,
-          100,
+          null
+        ]
+      },
+      "/Users/stackhouse/3mod/projects/rails_engine_fe_7/app/facades/rails_engine_facade.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          2,
+          200,
           null,
           null,
           null,
@@ -257,17 +278,17 @@
           null,
           null,
           1,
-          1,
+          0,
+          null,
+          0,
+          0,
+          null,
+          null,
           null,
           1,
-          2486,
+          0,
           null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
+          0,
           null,
           null
         ]
@@ -276,20 +297,16 @@
         "lines": [
           1,
           1,
-          5,
+          4,
           null,
           null,
           1,
-          5,
-          5,
+          4,
+          4,
           null,
           null,
           1,
-          1,
-          null,
-          null,
-          1,
-          1,
+          2,
           null,
           null,
           1,
@@ -301,7 +318,11 @@
           null,
           null,
           1,
+          0,
+          null,
+          null,
           1,
+          0,
           null,
           null
         ]
@@ -312,8 +333,8 @@
           1,
           null,
           1,
-          101,
-          101,
+          201,
+          201,
           null,
           null
         ]
@@ -324,16 +345,16 @@
           1,
           null,
           1,
-          2502,
-          2502,
-          2502,
-          2502,
-          2502,
+          15,
+          15,
+          15,
+          15,
+          15,
           null,
           null
         ]
       }
     },
-    "timestamp": 1689823476
+    "timestamp": 1689825257
   }
 }

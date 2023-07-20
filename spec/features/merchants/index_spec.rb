@@ -10,10 +10,10 @@ require 'rails_helper'
 RSpec.describe 'Merchant Index Page' do
   describe 'As a visitor, when I visit /merchants' do
     it 'shows a list of merchants by name' do
-      @merchants = MerchantsFacade.new.all_merchants
+      @merchants = MerchantFacade.all_merchants
 
       visit '/merchants'
-  
+
       
     end
   
